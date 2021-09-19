@@ -6,14 +6,15 @@
             <div class="content-header row">
                <div class="content-header-left col-12 mb-2 mt-1">
                   <div class="breadcrumbs-top">
-                     <h5 class="content-header-title float-left pr-1 mb-0"><a href="{{route('branches.index')}}">{{trans('main.branch')}}</a></h5>
+                     <h5 class="content-header-title float-left pr-1 mb-0">Form Validation</h5>
                      <div class="breadcrumb-wrapper d-none d-sm-block">
                         <ol class="breadcrumb p-0 mb-0 pl-1">
-                          
-                           <li class="breadcrumb-item">
-                           	{{trans('main.create')}}
+                           <li class="breadcrumb-item"><a href="index.html"><i class="bx bx-home-alt"></i></a>
                            </li>
-                          
+                           <li class="breadcrumb-item"><a href="#">Forms</a>
+                           </li>
+                           <li class="breadcrumb-item active">Form Validation
+                           </li>
                         </ol>
                      </div>
                   </div>
@@ -26,19 +27,18 @@
                      <div class="col-md-12">
                         <div class="card">
                            <div class="card-header">
-                              <h4 class="card-title">	{{trans('main.create_branch')}}</h4>
+                              <h4 class="card-title">jQuery Validation</h4>
                            </div>
                            <div class="card-body">
-                              <form  method="post">
+                              <form id="jquery-val-form" method="post">
                                  <div class="form-group">
-                                    <label class="form-label" for="basic-default-name">{{trans('main.branch_name')}}</label>
+                                    <label class="form-label" for="basic-default-name">Name</label>
                                     <input
                                        type="text"
-                                       name="name"
                                        class="form-control"
-                                       id="name"
-                                      
-                                       placeholder="{{trans('main.branch_name')}}"
+                                       id="basic-default-name"
+                                       name="basic-default-name"
+                                       placeholder="John Doe"
                                        />
                                  </div>
                                  <div class="form-group">

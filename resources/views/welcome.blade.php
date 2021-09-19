@@ -58,7 +58,7 @@
           <tr>
             <td><i class="bx bxs-circle success font-small-1 mr-50"></i><span>Paid</span></td>
             <td class="text-bold-600">Mike Brennan</td>
-            <td><img src="app-assets/images/cards/amer-express.png" class="mr-50" alt="card" height="25"
+            <td><img src="{!!url('dashboard')!!}/app-assets/images/cards/amer-express.png" class="mr-50" alt="card" height="25"
                 width="35"> **** 7617</td>
             <td>10.09.17</td>
             <td class="text-bold-600">$1,934</td>
@@ -66,7 +66,7 @@
           <tr>
             <td><i class="bx bxs-circle danger font-small-1 mr-50"></i><span>Expired</span></td>
             <td class="text-bold-600">Devin Payne</td>
-            <td><img src="app-assets/images/cards/discover.png" class="mr-50" alt="card" height="25"
+            <td><img src="{!!url('dashboard')!!}/app-assets/images/cards/discover.png" class="mr-50" alt="card" height="25"
                 width="35"> **** 7617</td>
             <td>11.08.18</td>
             <td class="text-bold-600">$232</td>
@@ -74,7 +74,7 @@
           <tr>
             <td><i class="bx bxs-circle danger font-small-1 mr-50"></i><span>Expired</span></td>
             <td class="text-bold-600">Michael Pena</td>
-            <td><img src="app-assets/images/cards/mastercard.png" class="mr-50" alt="card" height="25"
+            <td><img src="{!!url('dashboard')!!}/app-assets/images/cards/mastercard.png" class="mr-50" alt="card" height="25"
                 width="35"> **** 7617</td>
             <td>11.08.18</td>
             <td class="text-bold-600">$564</td>
@@ -82,7 +82,7 @@
           <tr>
             <td><i class="bx bxs-circle success font-small-1 mr-50"></i><span>Paid</span></td>
             <td class="text-bold-600">Devin Payne</td>
-            <td><img src="app-assets/images/cards/visa.png" class="mr-50" alt="card" height="25" width="35">
+            <td><img src="{!!url('dashboard')!!}/app-assets/images/cards/visa.png" class="mr-50" alt="card" height="25" width="35">
               **** 7617</td>
             <td>11.08.18</td>
             <td class="text-bold-600">$232</td>
@@ -90,7 +90,7 @@
           <tr>
             <td><i class="bx bxs-circle success font-small-1 mr-50"></i><span>Paid</span></td>
             <td class="text-bold-600">Michael Pena</td>
-            <td><img src="app-assets/images/cards/discover.png" class="mr-50" alt="card" height="25"
+            <td><img src="{!!url('dashboard')!!}/app-assets/images/cards/discover.png" class="mr-50" alt="card" height="25"
                 width="35"> **** 7617</td>
             <td>11.08.18</td>
             <td class="text-bold-600">$564</td>
@@ -120,7 +120,7 @@
         </thead>
         <tbody>
           <tr>
-            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="app-assets/images/cards/1.png"
+            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/1.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -140,7 +140,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="app-assets/images/cards/2.png"
+            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/2.png"
                 alt="card">Nike Lab</td>
             <td>Account number 4154 81** **** 7617</td>
             <td class="text-bold-600"><i class="text-bold-600 bx bx-tennis-ball mr-50"></i><span>Sports</span></td>
@@ -159,7 +159,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="app-assets/images/cards/3.png"
+            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/3.png"
                 alt="card">Pepsi
               Drink
             </td>
@@ -181,7 +181,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="app-assets/images/cards/4.png"
+            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/4.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -202,7 +202,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="app-assets/images/cards/5.png"
+            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/5.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -223,7 +223,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="app-assets/images/cards/2.png"
+            <td class="text-bold-600 pr-0"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/2.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -268,7 +268,7 @@
         <tbody>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/pdf.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/pdf.png" alt="file" class="mr-1"
                 height="36" width="27">
               Music</td>
             <td>11/04/2019</td>
@@ -276,17 +276,17 @@
               <ul class="list-unstyled users-list m-0  d-flex align-items-center">
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Lilian Nenez"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-7.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-7.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
               </ul>
@@ -305,7 +305,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/doc.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/doc.png" alt="file" class="mr-1"
                 height="36" width="27">Important
               Documents</td>
             <td><span>10/04/2019</span>
@@ -314,17 +314,17 @@
               <ul class="list-unstyled users-list m-0  d-flex align-items-center">
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Lilian Nenez"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-1.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-1.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-23.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-23.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-3.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-3.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
               </ul>
@@ -343,7 +343,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/sketch.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/sketch.png" alt="file" class="mr-1"
                 height="36" width="27">Folder
               Mobile
               Itteractions</td>
@@ -353,12 +353,12 @@
               <ul class="list-unstyled users-list m-0  d-flex align-items-center">
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Lilian Nenez"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-10.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-10.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-11.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-11.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
               </ul>
@@ -377,7 +377,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/sketch.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/sketch.png" alt="file" class="mr-1"
                 height="36" width="27">New_Version_Table_Design.sketch</td>
             <td><span>10/04/2019</span>
             </td>
@@ -385,22 +385,22 @@
               <ul class="list-unstyled users-list m-0  d-flex align-items-center">
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Lilian Nenez"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-16.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-16.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-17.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-17.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-11.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-11.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
               </ul>
@@ -419,7 +419,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/psd.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/psd.png" alt="file" class="mr-1"
                 height="36" width="27">Presention Kit
               Desktop.psd</td>
             <td><span>10/03/2019</span>
@@ -439,7 +439,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/pdf.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/pdf.png" alt="file" class="mr-1"
                 height="36" width="27">Landing UI
               Kit.pdf</td>
             <td><span>10/04/2019</span>
@@ -448,12 +448,12 @@
               <ul class="list-unstyled users-list m-0  d-flex align-items-center">
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Lilian Nenez"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Alberto Glotzbach"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
               </ul>
@@ -472,7 +472,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/sketch.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/sketch.png" alt="file" class="mr-1"
                 height="36" width="27">Modeling 3d
               Itteractions</td>
             <td><span>05/04/2019</span>
@@ -492,7 +492,7 @@
           </tr>
           <tr>
             <td></td>
-            <td class="text-bold-600 pl-0"><img src="app-assets/images/icon/sketch.png" alt="file" class="mr-1"
+            <td class="text-bold-600 pl-0"><img src="{!!url('dashboard')!!}/app-assets/images/icon/sketch.png" alt="file" class="mr-1"
                 height="36" width="27">old_Version_Design.sketch</td>
             <td><span>10/04/2019</span>
             </td>
@@ -500,7 +500,7 @@
               <ul class="list-unstyled users-list m-0  d-flex align-items-center">
                 <li data-toggle="tooltip" data-popup="tooltip-custom" data-placement="bottom" title="Lilian Nenez"
                   class="avatar pull-up">
-                  <img src="app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar" height="30"
+                  <img src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-5.jpg" alt="Avatar" height="30"
                     width="30">
                 </li>
               </ul>
@@ -544,7 +544,7 @@
               <tr>
                 <td>
                   <div class="d-flex align-items-center"><img class="rounded-circle mr-1"
-                      src="app-assets/images/cards/4.png" height="32" width="32" alt="card">
+                      src="{!!url('dashboard')!!}/app-assets/images/cards/4.png" height="32" width="32" alt="card">
                     <div class="flex-content"><span class="font-medium-2">Food</span><br><span
                         class="text-muted font-small-2">Food
                         Category</span></div>
@@ -562,7 +562,7 @@
               <tr>
                 <td>
                   <div class="d-flex align-items-center"><img class="rounded-circle mr-1"
-                      src="app-assets/images/cards/6.png" height="32" width="32" alt="card">
+                      src="{!!url('dashboard')!!}/app-assets/images/cards/6.png" height="32" width="32" alt="card">
                     <div class="flex-content"><span class="font-medium-2">iPhone 8</span><br><span
                         class="text-muted font-small-2">Tech
                         Category</span></div>
@@ -578,7 +578,7 @@
               <tr>
                 <td>
                   <div class="d-flex align-items-center"><img class="rounded-circle mr-1"
-                      src="app-assets/images/cards/2.png" height="32" width="32" alt="card">
+                      src="{!!url('dashboard')!!}/app-assets/images/cards/2.png" height="32" width="32" alt="card">
                     <div class="flex-content"><span class="font-medium-2">Beats</span><br><span
                         class="text-muted font-small-2">Music
                         Category</span></div>
@@ -593,7 +593,7 @@
               <tr>
                 <td>
                   <div class="d-flex align-items-center"><img class="rounded-circle mr-1"
-                      src="app-assets/images/cards/1.png" height="32" width="32" alt="card">
+                      src="{!!url('dashboard')!!}/app-assets/images/cards/1.png" height="32" width="32" alt="card">
                     <div class="flex-content"><span class="font-medium-2">Beats</span><br><span
                         class="text-muted font-small-2">Music
                         Category</span></div>
@@ -634,7 +634,7 @@
               <tr>
                 <td class="w-25 pr-0">
                   <div class="d-flex align-items-center text-bold-500"><img class="rounded-circle mr-1"
-                      src="app-assets/images/portrait/small/avatar-s-1.jpg" alt="avatar" height="32"
+                      src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-1.jpg" alt="avatar" height="32"
                       width="32">
                     <div class="flex-content"> Steve White</div>
                   </div>
@@ -650,7 +650,7 @@
               <tr>
                 <td class="w-25 pr-0">
                   <div class="d-flex align-items-center text-bold-500"><img class="rounded-circle mr-1"
-                      src="app-assets/images/portrait/small/avatar-s-2.jpg" alt="avatar" height="32"
+                      src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-2.jpg" alt="avatar" height="32"
                       width="32">
                     <div class="flex-content">Ray Magnet</div>
                   </div>
@@ -666,7 +666,7 @@
               <tr>
                 <td class="w-25 pr-0">
                   <div class="d-flex align-items-center text-bold-500"><img class="rounded-circle mr-1"
-                      src="app-assets/images/portrait/small/avatar-s-12.jpg" alt="avatar" height="32"
+                      src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-12.jpg" alt="avatar" height="32"
                       width="32">
                     <div class="flex-content"> Steve White</div>
                   </div>
@@ -682,7 +682,7 @@
               <tr>
                 <td class="w-25 pr-0">
                   <div class="d-flex align-items-center text-bold-500"><img class="rounded-circle mr-1"
-                      src="app-assets/images/portrait/small/avatar-s-10.jpg" alt="avatar" height="32"
+                      src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-10.jpg" alt="avatar" height="32"
                       width="32">
                     <div class="flex-content"> Markus Blind</div>
                   </div>
@@ -698,7 +698,7 @@
               <tr>
                 <td class="w-25 pr-0">
                   <div class="d-flex align-items-center text-bold-500"><img class="rounded-circle mr-1"
-                      src="app-assets/images/portrait/small/avatar-s-10.jpg" alt="avatar" height="32"
+                      src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-10.jpg" alt="avatar" height="32"
                       width="32">
                     <div class="flex-content">jonny Blind</div>
                   </div>
@@ -746,7 +746,7 @@
               <tr>
                 <td>
                   <div class="d-flex align-items-center">
-                    <img class="rounded-circle" src="app-assets/images/portrait/small/avatar-s-1.jpg"
+                    <img class="rounded-circle" src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-1.jpg"
                       alt="avatar" height="32" width="32">
                     <div class="ml-1"><span class="text-bold-500">Stuart Bradley </span><br><span
                         class="text-muted">promember@gmail.com</span></div>
@@ -762,7 +762,7 @@
               <tr>
                 <td>
                   <div class="d-flex align-items-center">
-                    <img class="rounded-circle" src="app-assets/images/portrait/small/avatar-s-1.jpg"
+                    <img class="rounded-circle" src="{!!url('dashboard')!!}/app-assets/images/portrait/small/avatar-s-1.jpg"
                       alt="avatar" height="32" width="32">
                     <div class="ml-1">
                       <span class="text-bold-500">Miles Davis</span>
@@ -911,7 +911,7 @@
             <td colspan="6">Today</td>
           </tr>
           <tr>
-            <td class="text-bold-600"><img class="rounded-circle mr-1" src="app-assets/images/cards/1.png"
+            <td class="text-bold-600"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/1.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -932,7 +932,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600"><img class="rounded-circle mr-1" src="app-assets/images/cards/2.png"
+            <td class="text-bold-600"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/2.png"
                 alt="card">Nike Lab</td>
             <td>Account number 4154 81** **** 7617</td>
             <td class="text-bold-600"><i
@@ -955,7 +955,7 @@
             <td colspan="6">Yesterday</td>
           </tr>
           <tr>
-            <td class="text-bold-600"><img class="rounded-circle mr-1" src="app-assets/images/cards/3.png"
+            <td class="text-bold-600"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/3.png"
                 alt="card">Pepsi Drink
             </td>
             <td>Account number 4154 81** **** 7617</td>
@@ -977,7 +977,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600"><img class="rounded-circle mr-1" src="app-assets/images/cards/4.png"
+            <td class="text-bold-600"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/4.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -999,7 +999,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600"><img class="rounded-circle mr-1" src="app-assets/images/cards/5.png"
+            <td class="text-bold-600"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/5.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>
@@ -1021,7 +1021,7 @@
             </td>
           </tr>
           <tr>
-            <td class="text-bold-600"><img class="rounded-circle mr-1" src="app-assets/images/cards/2.png"
+            <td class="text-bold-600"><img class="rounded-circle mr-1" src="{!!url('dashboard')!!}/app-assets/images/cards/2.png"
                 alt="card">Headphones
               Beats</td>
             <td>Account number 4154 81** **** 7617</td>

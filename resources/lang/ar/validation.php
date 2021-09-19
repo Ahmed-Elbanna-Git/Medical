@@ -13,12 +13,12 @@ return [
     |
     */
 
-      'name'=>[
-        'required'=>' Enter Name Please ',
+     'name'=>[
+        'required'=>' يجب أدخال الاسم ',
     ],
 
      'address'=>[
-        'required'=>'Enter Address Please',
+        'required'=>'يجب أدخال العنوان',
     ],
 
     'accepted' => 'The :attribute must be accepted.',

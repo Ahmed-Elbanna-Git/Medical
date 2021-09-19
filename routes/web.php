@@ -12,12 +12,20 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(
+[
+	'prefix' => LaravelLocalization::setLocale(),
+	'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+], function(){ 
 
-Route::get('/', function () {
+	Route::get('/', function () {
     return view('welcome');
+    });
+
+	Route::resource('rooms', 'RoomController');
+    Route::resource('branches', 'BranchController');
+
+
+
+
 });
-
-// Route::group(['namespace'=>'App\Http\Controller'],function(){
-    Route::resource('rooms', 'RoomController');
-// });
-
