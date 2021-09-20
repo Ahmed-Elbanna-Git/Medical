@@ -5,90 +5,20 @@ use App\Models\Branch;
 use Illuminate\Http\Request;
 use App\Http\Requests\BranchRequest;
 
-class BranchController extends Controller
+class BranchController extends CrudController
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+
+     public function __construct(Request $request)
     {
-        return view('branches.index');
+
+        $this->model = new Branch();
+        $this->basicViewFolder = 'Branches';
+        $this->basicRoute = 'Branches';
+        $this->request = $request;
+
+        $this->validationRequestClass = new BranchRequest();
+
+        parent::__construct();
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('branches.create');
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(BranchRequest $request)
-    {
-         if ($request->passes()) {
-
-            return response()->json(['success'=>'Added new records.']);
-            
-        }
-
-        return response()->json(['error'=>$request->errors()]);
   
-
-
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

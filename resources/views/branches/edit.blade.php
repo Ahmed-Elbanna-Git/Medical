@@ -6,15 +6,14 @@
             <div class="content-header row">
                <div class="content-header-left col-12 mb-2 mt-1">
                   <div class="breadcrumbs-top">
-                     <h5 class="content-header-title float-left pr-1 mb-0">Form Validation</h5>
+                     <h5 class="content-header-title float-left pr-1 mb-0"><a href="{{route('branches.index')}}">{{trans('main.branch')}}</a></h5>
                      <div class="breadcrumb-wrapper d-none d-sm-block">
                         <ol class="breadcrumb p-0 mb-0 pl-1">
-                           <li class="breadcrumb-item"><a href="index.html"><i class="bx bx-home-alt"></i></a>
+                          
+                           <li class="breadcrumb-item">
+                              {{trans('main.create')}}
                            </li>
-                           <li class="breadcrumb-item"><a href="#">Forms</a>
-                           </li>
-                           <li class="breadcrumb-item active">Form Validation
-                           </li>
+                          
                         </ol>
                      </div>
                   </div>
@@ -27,93 +26,92 @@
                      <div class="col-md-12">
                         <div class="card">
                            <div class="card-header">
-                              <h4 class="card-title">jQuery Validation</h4>
+                              <h4 class="card-title"> {{trans('main.create_branch')}}</h4>
                            </div>
+
+
                            <div class="card-body">
-                              <form id="jquery-val-form" method="post">
+                              <form   action="{{route('branches.update',$resource->id)}}" method="post">
+                              {{csrf_field()}}
                                  <div class="form-group">
-                                    <label class="form-label" for="basic-default-name">Name</label>
+                                    <label class="form-label" for="name">{{trans('main.branch_name')}}</label>
                                     <input
                                        type="text"
+                                       name="name"
                                        class="form-control"
-                                       id="basic-default-name"
-                                       name="basic-default-name"
-                                       placeholder="John Doe"
+                                       id="name"
+                                      
+                                       placeholder="{{trans('main.branch_name')}}"
                                        />
+                                        <span class="text-danger error-text name_err"></span>
                                  </div>
-                                 <div class="form-group">
-                                    <label class="form-label" for="basic-default-email">Email</label>
+
+                                  <div class="form-group">
+                                    <label class="form-label" for="address">{{trans('main.address')}}</label>
                                     <input
                                        type="text"
-                                       id="basic-default-email"
-                                       name="basic-default-email"
+                                       name="address"
                                        class="form-control"
-                                       placeholder="john.doe@email.com"
+                                       id="address"
+                                      
+                                       placeholder="{{trans('main.address')}}"
                                        />
                                  </div>
-                                 <div class="form-group">
-                                    <label class="form-label" for="basic-default-password">Password</label>
+
+                                  <div class="form-group">
+                                    <label class="form-label" for="lat">{{trans('main.lat')}}</label>
                                     <input
-                                       type="password"
-                                       id="basic-default-password"
-                                       name="basic-default-password"
+                                       type="text"
+                                       name="lat"
                                        class="form-control"
-                                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                       id="lat"
+                                      
+                                       placeholder="{{trans('main.lat')}}"
                                        />
                                  </div>
-                                 <div class="form-group">
-                                    <label class="form-label" for="confirm-password">Confirm Password</label>
+
+                                  <div class="form-group">
+                                    <label class="form-label" for="long">{{trans('main.long')}}</label>
                                     <input
-                                       type="password"
-                                       id="confirm-password"
-                                       name="confirm-password"
+                                       type="text"
+                                       name="long"
                                        class="form-control"
-                                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                       id="long"
+                                      
+                                       placeholder="{{trans('main.long')}}"
                                        />
                                  </div>
-                                 <div class="form-group">
-                                    <label for="select-country">Country</label>
-                                    <select class="form-control select2" id="select-country" name="select-country">
-                                       <option value="">Select Country</option>
-                                       <option value="usa">USA</option>
-                                       <option value="uk">UK</option>
-                                       <option value="france">France</option>
-                                       <option value="australia">Australia</option>
-                                       <option value="spain">Spain</option>
-                                    </select>
+
+                                  <div class="form-group">
+                                    <label class="form-label" for="phone">{{trans('main.phone')}}</label>
+                                    <input
+                                       type="text"
+                                       name="phone"
+                                       class="form-control"
+                                       id="phone"
+                                      
+                                       placeholder="{{trans('main.long')}}"
+                                       />
                                  </div>
+                                
+                               
                                  <div class="form-group">
-                                    <label>Profile pic</label>
-                                    <div class="custom-file">
-                                       <input type="file" class="custom-file-input" id="customFile" name="customFile" />
-                                       <label class="custom-file-label" for="customFile">Choose profile pic</label>
-                                    </div>
-                                 </div>
-                                 <div class="form-group">
-                                    <label class="d-block">Gender</label>
+                                    <label class="d-block">{{trans('main.activate')}}</label>
                                     <div class="custom-control custom-radio my-50">
-                                       <input type="radio" id="validationRadiojq1" name="validationRadiojq" class="custom-control-input" />
-                                       <label class="custom-control-label" for="validationRadiojq1">Male</label>
+                                       <input type="radio" id="active" name="active" class="custom-control-input" value="1" />
+                                       <label class="custom-control-label" for="active">{{trans('main.active')}}</label>
                                     </div>
                                     <div class="custom-control custom-radio">
-                                       <input type="radio" id="validationRadiojq2" name="validationRadiojq" class="custom-control-input" />
-                                       <label class="custom-control-label" for="validationRadiojq2">Female</label>
+                                       <input type="radio" id="not_active" name="active" class="custom-control-input" value="0" />
+                                       <label class="custom-control-label" for="not_active">{{trans('main.not_active')}}</label>
                                     </div>
                                  </div>
-                                 <div class="form-group">
-                                    <label class="d-block" for="validationBio">Bio</label>
-                                    <textarea class="form-control" id="validationBio" name="validationBiojq" rows="3"></textarea>
-                                 </div>
-                                 <div class="form-group">
-                                    <div class="custom-control custom-checkbox">
-                                       <input type="checkbox" class="custom-control-input" id="validationCheck" name="validationCheck" />
-                                       <label class="custom-control-label" for="validationCheck">Agree to our terms and conditions</label>
-                                    </div>
-                                 </div>
+                                
+                               
                                  <div class="row">
                                     <div class="col-12 ">
-                                       <button type="submit" class="btn btn-primary mr-1" name="submit" value="Submit">Submit</button>
-                                       <button type="" class="btn btn-light-secondary">Cancel</button>
+                                       <button type="submit" class="btn btn-primary mr-1 btn-submit" >{{trans('main.submit')}}</button>
+                                      
                                     </div>
                                  </div>
                               </form>
